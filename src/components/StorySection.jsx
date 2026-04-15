@@ -28,7 +28,7 @@ export default function StorySection() {
       <section id="story" className="scroll-mt-20 py-28 px-6 bg-espresso text-cream">      <div className="max-w-5xl mx-auto">
         <FadeUp>
           <p className="font-sans text-xs tracking-[0.3em] uppercase text-caramel mb-4 text-center">Our Story</p>
-          <h2 className="section-title text-center text-cream mb-2">Rooted in Ritual</h2>
+          <h2 className="section-title text-center mb-2" style={{ color: '#F5F0E8' }}>Rooted in Ritual</h2>
           <div className="gold-line" />
         </FadeUp>
 
