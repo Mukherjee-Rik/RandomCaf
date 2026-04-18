@@ -4,10 +4,10 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <span className="text-xl">☕</span>
-          <span className="font-serif text-lg text-cream">S22 Cafe</span>
+          <span className="font-serif text-lg text-cream">Coffee Tea n Me</span>
         </div>
         <p className="font-sans text-xs text-latte/30 tracking-wide">
-          © 2024 S22 Cafe. Crafted with care.
+          © 2024 Coffee Tea n Me. Crafted with care.
         </p>
         <div className="flex gap-6">
           <a 
