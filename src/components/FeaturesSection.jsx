@@ -21,7 +21,7 @@ export default function FeatureSection() {
           className="text-center mb-16"
         >
           <p className="font-sans text-xs tracking-[0.3em] uppercase text-caramel mb-3">Why Us</p>
-          <h2 className="section-title" style={{ color: '#FAF6F0' }}>The 22 Difference</h2>
+          <h2 className="section-title" style={{ color: '#FAF6F0' }}>The CTM Difference</h2>
           <div className="gold-line" />
         </motion.div>
 
