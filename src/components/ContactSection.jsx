@@ -7,7 +7,6 @@ export default function ContactSection() {
 
   return (
     <section id="contact" ref={ref} className="scroll-mt-20 py-28 px-6 bg-cream text-espresso">
-
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         {/* Left side – contact details */}
         <motion.div
@@ -52,6 +51,29 @@ export default function ContactSection() {
             />          
           </div>
         </motion.div>
+      </div>
+
+      {/* "Take me there" button - opens your custom Google Maps link */}
+      <div className="flex justify-center mt-12 md:mt-16">
+        <a
+          href="https://maps.app.goo.gl/fJYTEjBUZjXZqDLH8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-2 bg-espresso text-cream px-6 sm:px-8 py-3 rounded-full font-medium tracking-wide shadow-md hover:shadow-lg transition-all duration-300 hover:bg-espresso/90 focus:outline-none focus:ring-2 focus:ring-caramel focus:ring-offset-2 active:scale-95 w-full sm:w-auto min-w-[200px]"
+        >
+          Take me there
+          <svg 
+            className="w-4 h-4" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24" 
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+        </a>
       </div>
     </section>
   )
