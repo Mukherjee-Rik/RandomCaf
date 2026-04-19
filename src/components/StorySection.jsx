@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const milestones = [
-  { year: '2023', text: 'Coffee Tea n Me was founded with a vision: to brew more than just coffee — to create a space for genuine human connection.' },
+  { year: '2023', text: 'Coffee Tea & Me was founded with a vision: to brew more than just coffee — to create a space for genuine human connection.' },
   { year: '2024', text: 'Expanded our sourcing network, partnering directly with ethical farms to secure the world\'s finest beans.' },
   { year: '2025', text: 'Launched our signature craft menu, where every drink is prepared with passion and precision by expert baristas.' },
   { year: '2026', text: 'Became a beloved community hub — a second home for creativity, quiet contemplation, and shared moments.' },
@@ -34,7 +34,7 @@ export default function StorySection() {
 
         <FadeUp delay={0.2}>
           <p className="font-sans text-latte/80 text-center max-w-2xl mx-auto mt-6 text-lg leading-relaxed">
-            At Coffee Tea and Me, we believe exceptional coffee fosters genuine connection. Every cup is crafted with care, turning daily rituals into moments worth savoring.
+            At Coffee Tea & Me, we believe exceptional coffee fosters genuine connection. Every cup is crafted with care, turning daily rituals into moments worth savoring.
           </p>
         </FadeUp>
 
