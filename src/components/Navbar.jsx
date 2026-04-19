@@ -72,7 +72,7 @@ export default function Navbar() {
         </ul>
 
         <button
-          onClick={() => handleScroll('menu')}
+          onClick={() => handleScroll('booking')}
           className="hidden md:inline-block bg-caramel text-cream px-5 py-2 rounded-full text-sm font-sans tracking-wide hover:bg-espresso transition-colors duration-300"
         >
           Book a Table
