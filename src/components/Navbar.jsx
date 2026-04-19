@@ -53,7 +53,7 @@ export default function Navbar() {
         <a href="#" className="flex items-center gap-2">
           <span className="text-2xl">☕</span>
           <span className="font-serif text-xl font-bold text-espresso tracking-wide">
-            Coffee Tea n Me
+            Coffee Tea & Me
           </span>
         </a>
 
